@@ -204,7 +204,7 @@ function Nav() {
           <InformationComponent
             Icon={CiPhone}
             topText="+995 574197746"
-            bottomText="-info@Olimpusrealestate.ge"
+            bottomText="-info@Olimpus.ge"
           />
           <InformationComponent
             Icon={CiLocationOn}
