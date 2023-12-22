@@ -20,7 +20,7 @@ export default function Footer() {
             <a target="_blank"  href="https://www.facebook.com/OlimpusProperties">
               <FaFacebook className="text-[#fccc63]" />
             </a>
-            <a target="_blank" href="https://www.facebook.com/OlimpusProperties">
+            <a target="_blank" href="https://www.linkedin.com/company/olimpus-properties/about/?viewAsMember=true&fbclid=IwAR1y78XlG3w73PdDEADHHjevBCc1SrQJDNm05sga6JiaZZ33X_GJeaJFl2Y">
               <FaLinkedin className="text-[#fccc63]" />
             </a>
             <a target="_blank" href="https://www.instagram.com/olimpus_properties/?igshid=OGQ5ZDc2ODk2ZA%3D%3D&fbclid=IwAR277DY2CA2Cpq-WnX3ctYnyQe6D9nbfWiw1oemU-GW2wvlEcETlslBCTpk">
@@ -32,7 +32,7 @@ export default function Footer() {
           <InformationComponent
             Icon={CiPhone}
             topText="+995 574197746"
-            bottomText="-info@Olimpusrealestate.ge"
+            bottomText="-info@olimpus.ge"
           />
           <InformationComponent
             Icon={CiLocationOn}
@@ -47,7 +47,7 @@ export default function Footer() {
         </div>
       </div>
       <div>
-        <a href="https://www.facebook.com/profile.php?id=61553239725559"  className=" text-[#ff1d1d]  text-xl"><span className="text-[#ffffff]">Copyright ©</span> RedLine Technologies </a>
+        <a href="https://redline.ink"  className=" text-[#ff1d1d]  text-xl"><span className="text-[#ffffff]">Copyright ©</span> RedLine Incorporation</a>
       </div>
       <div>
         <Map lat={41.72372838392247} lng={44.76448475252844} />

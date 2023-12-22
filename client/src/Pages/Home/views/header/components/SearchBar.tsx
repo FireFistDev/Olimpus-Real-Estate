@@ -5,18 +5,19 @@ import { useDispatch } from "react-redux";
 import { GetAllpropertysThunk } from "../../../../../Redux/Property/property-thunk";
 
 function SearchBar() {
-  const [serach, setSearch] = useState("");
+  const [search, setSearch] = useState("");
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const dispatch = useDispatch<ThunkDispatch<any, any, any>>();
 
   const sendSearchQuery = () => {
-    let query = {
+    const query = {
       page: 1,
       limit: 5,
       minPrice: 0,
       maxPrice: 9000000,
       featureType: "",
       propertyType: "",
-      search: serach,
+      search: search,
     };
     dispatch(GetAllpropertysThunk(query));
   };
@@ -25,7 +26,7 @@ function SearchBar() {
       <input
         onChange={(e) => setSearch(e.target.value)}
         className="bg-brand-green/5    text-brand-white h-[90%] rounded-[100px] w-[100%] outline-none"
-        placeholder="serach..."
+        placeholder="Search..."
       />
       <div
         onClick={sendSearchQuery}

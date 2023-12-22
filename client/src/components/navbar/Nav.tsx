@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import React, { useEffect, useState } from "react";
 import { CiLocationOn, CiPhone, CiClock1 } from "react-icons/ci";
 import { FaBars } from "react-icons/fa";
@@ -88,7 +89,7 @@ function Nav() {
         <InformationComponent
             Icon={CiPhone}
             topText="+995 574197746"
-            bottomText="-info@Olimpusrealestate.ge"
+            bottomText="-info@olimpus.ge"
           />
           <InformationComponent
             Icon={CiLocationOn}
@@ -136,7 +137,7 @@ function Nav() {
           <a target="_blank"  href="https://www.facebook.com/OlimpusProperties">
               <FaFacebook className="text-[#fccc63]" />
             </a>
-            <a target="_blank" href="https://www.facebook.com/OlimpusProperties">
+            <a target="_blank" href="https://www.linkedin.com/company/olimpus-properties/about/?viewAsMember=true&fbclid=IwAR1y78XlG3w73PdDEADHHjevBCc1SrQJDNm05sga6JiaZZ33X_GJeaJFl2Y">
               <FaLinkedin className="text-[#fccc63]" />
             </a>
             <a target="_blank" href="https://www.instagram.com/olimpus_properties/?igshid=OGQ5ZDc2ODk2ZA%3D%3D&fbclid=IwAR277DY2CA2Cpq-WnX3ctYnyQe6D9nbfWiw1oemU-GW2wvlEcETlslBCTpk">
@@ -147,7 +148,7 @@ function Nav() {
       </section>
       <div
         onClick={() => setDropDown(!dropDown)}
-        className="lg:hidden top-0 text-[2rem]  text-brand-green absolute z-50 top-[3.4rem] "
+        className="lg:hidden top-0 text-[2rem]  text-brand-green absolute z-50 "
       >
         <FaBars />
       </div>
